@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Singleton {
 
-    public static final String S3_BUCKET_NAME = "palettepets";
+    public static final String S3_BUCKET_NAME = "bitcamp-edu-bucket-55";
 //    public static final String FRONT_URL = "http://localhost:80";
-    public static final String FRONT_URL = "http://175.106.99.78";
+    public static final String FRONT_URL = "http://175.45.204.119";
 
     @Bean
     public Integer PAGE_SIZE(){
@@ -18,7 +18,7 @@ public class Singleton {
 
     @Bean
     public String BUCKET_NAME(){
-        return "palettepets";
+        return "bitcamp-edu-bucket-55";
     }
 
 //    @Bean
