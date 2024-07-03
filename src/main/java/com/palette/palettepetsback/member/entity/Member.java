@@ -26,26 +26,40 @@ public class Member {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_id")
     private Long memberId;
+
+    @Column(name = "email", unique = true)
     private String email;
+
+    @Column(name = "password")
     private String password;
+
     @Column(name = "member_name")
     private String memberName;
+
     @Column(name = "member_nickname", unique = true)
     private String memberNickname;
+
     @Column(name = "member_address")
     private String memberAddress;
+
     @Column(name = "member_birth")
     private String memberBirth;
+
     @Column(name = "member_gender")
     private String memberGender;
+
     @Column(name = "member_phone")
     private String memberPhone;
+
     @Enumerated(EnumType.STRING)
     private Role role;
+
     @Column(name = "member_image")
     private String memberImage;
+
     @Column(name = "login_type")
     private String loginType;
+
     @Column(name = "is_deleted")
     private boolean isDeleted;
 

@@ -22,5 +22,5 @@ public class ReportArticleRedis {
     Long articleId;
 
     @TimeToLive
-    private Long expiration = (24 * 60 * 60L); //24시간
+    private final Long expiration = (24 * 60 * 60L); //24시간
 }
