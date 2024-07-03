@@ -97,8 +97,6 @@
 
 ### 트러블1. [SSE 서버 분리를 통한 응답 성능 개선]
 
-<a href="https://rlatmddnjs0103.tistory.com/224">작성한 블로그 링크</a>  
-
 🚨 **문제 배경**
 
 알림 기능을 수행하기 위한 SSE(Server Sent Event) Connect이 자주 발생하며 기본 API 응답 요청의 지연 발생
