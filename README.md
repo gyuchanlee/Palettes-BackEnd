@@ -19,7 +19,7 @@
 >
 [간단한 시스템 아키텍처](https://www.figma.com/board/I3S3GViSuWVW6f1XCSudlT/Final-Architecture?node-id=0-1&t=3LeZjxDonI4eDf9b-0)
 >
-[UI 설게](https://www.figma.com/design/TDAFaHkbFCa1sngiLppZ0Z/pets?node-id=0-1&t=EmBOSQWk0Ypl8dBf-1)
+[UI 설계](https://www.figma.com/design/TDAFaHkbFCa1sngiLppZ0Z/pets?node-id=0-1&t=EmBOSQWk0Ypl8dBf-1)
 
 
 
